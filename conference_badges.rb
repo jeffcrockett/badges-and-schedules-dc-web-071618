@@ -18,3 +18,12 @@ def assign_rooms(names)
   end
   room_assignments
 end
+
+def printer(names)
+  for badge in batch_badge_creator(names)
+    puts badge 
+  end
+  for room in assign_rooms(names)
+    puts room 
+  end
+end
