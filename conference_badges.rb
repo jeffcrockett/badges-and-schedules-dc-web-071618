@@ -14,7 +14,7 @@ end
 def assign_rooms(names)
   room_assignments = []
   for i in (0...names.size)
-    room_assignments << "Hello, #{names[i]}! You'll be assigned to room #{i}!"
+    room_assignments << "Hello, #{names[i]}! You'll be assigned to room #{i+1}!"
   end
   room_assignments
 end
